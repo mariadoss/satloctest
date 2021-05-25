@@ -9,6 +9,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/locationinfo', (req, resp) => {
   //res.send('Hello World');
+	console.log('Calling loctioninfo');
         var options = {
         host: 'c-04.private.us-east.link.satellite.cloud.ibm.com',
 	port: 34271,
