@@ -16,7 +16,7 @@ app.get('/locationinfo', (req, resp) => {
 	console.log('Calling loctioninfo');
         var options = {
         host: 'c-04.private.us-east.link.satellite.cloud.ibm.com',
-	port: 34271,
+	port: 34290,
 	path: '/locationdetail',
         }
         var data = '';
