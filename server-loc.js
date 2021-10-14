@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   console.log('Calling home');
-  res.send('Hello World MIV Change3');
+  res.send('Hello World MIV Change4');
   
 });
 
@@ -18,8 +18,8 @@ app.get('/locationinfo', (req, resp) => {
 	console.log('Calling loctioninfo');
         var options = {
         host: 'c-04.private.us-east.link.satellite.cloud.ibm.com',
-	port: 33030,
-	path: '/locationdetail',
+	port: 33816,
+	path: '/',
         }
         var data = '';
         var request = http.request(options, function (res) {
