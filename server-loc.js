@@ -9,7 +9,12 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   console.log('Calling home');
-  res.send('Hello World MIV Change5');
+  res.send('Hello World MIV Change6');
+  
+});
+app.get('/test', (req, res) => {
+  console.log('Calling test');
+  res.send('Hello World MIV test');
   
 });
 
