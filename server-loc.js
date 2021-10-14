@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   console.log('Calling home');
-  res.send('Hello World MIV Change6');
+  res.send('Hello World MIV Change9');
   
 });
 app.get('/test', (req, res) => {
@@ -41,7 +41,7 @@ app.get('/locationinfo', (req, resp) => {
                 console.log(e.message);            
 
         });
-        //request.end();
+        request.end();
        
 });
 
@@ -68,7 +68,7 @@ app.get('/mvi', (req, resp) => {
                 console.log(e.message);            
 
         });
-        //request.end();
+        request.end();
        
 });
 
