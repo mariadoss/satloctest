@@ -8,7 +8,9 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World MIV Change');
+  console.log('Calling home');
+  res.send('Hello World MIV Change2');
+  request.end();
 });
 
 app.get('/locationinfo', (req, resp) => {
