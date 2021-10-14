@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   console.log('Calling home');
-  res.send('Hello World MIV Change4');
+  res.send('Hello World MIV Change5');
   
 });
 
@@ -37,7 +37,7 @@ app.get('/locationinfo', (req, resp) => {
 
         });
         //request.end();
-        request.end();
+       
 });
 
 app.get('/mvi', (req, resp) => {
@@ -64,7 +64,7 @@ app.get('/mvi', (req, resp) => {
 
         });
         //request.end();
-        request.end();
+       
 });
 
 app.listen(PORT, HOST);
